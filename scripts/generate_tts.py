@@ -146,8 +146,14 @@ async def generate(voice: str) -> int:
                 if entry.get("audio") != relative_audio:
                     entry["audio"] = relative_audio
                     manifest_changed = True
+                if entry.get("audio_url") != relative_audio:
+                    entry["audio_url"] = relative_audio
+                    manifest_changed = True
                 if chapter.get("audio") != relative_audio:
                     chapter["audio"] = relative_audio
+                    write_json(chapter_path, chapter)
+                if chapter.get("audio_url") != relative_audio:
+                    chapter["audio_url"] = relative_audio
                     write_json(chapter_path, chapter)
 
         if manifest_changed:
