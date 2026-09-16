@@ -1,0 +1,33 @@
+{
+  "novels": [
+    {
+      "author": "Phù Sinh nhất thời vung tay",
+      "cover": "https://img.xsw.tw/1713/1713745/1713745s.jpg",
+      "latest_chapter": 1,
+      "slug": "tang-than-quan-1",
+      "title": "Táng Thần Quan"
+    },
+    {
+      "author": "Sharaguss",
+      "cover": "https://img.xsw.tw/1512/1512042/1512042s.jpg",
+      "latest_chapter": 539,
+      "slug": "chu-nhan-pho-la-4",
+      "title": "Chủ nhân Phổ La"
+    },
+    {
+      "author": "Quan Hư",
+      "cover": "https://img.xsw.tw/1462/1462449/1462449s.jpg",
+      "latest_chapter": 1,
+      "slug": "hoi-tran-truong-sinh-5",
+      "title": "Hỏi trận trường sinh"
+    },
+    {
+      "author": "Người Quý Việt",
+      "cover": "https://m.xsw.tw/style/noimg.jpg",
+      "latest_chapter": 1,
+      "slug": "huyen-giam-tien-toc-6",
+      "title": "Huyền Giám Tiên Tộc"
+    }
+  ],
+  "updated_at": "2026-09-16T08:55:11.237285+00:00"
+}
